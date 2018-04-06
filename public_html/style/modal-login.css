@@ -1,0 +1,64 @@
+/* 
+*
+* @author Sabrina Ribeiro
+* Email: ssabrinaribeiro@outlook.com
+*
+*/
+@charset "utf-8";
+
+.modal-login {
+position: absolute;
+opacity:0;
+-webkit-transition: opacity 400ms ease-in;
+-moz-transition: opacity 400ms ease-in;
+transition: opacity 400ms ease-in;
+pointer-events: none;
+ }
+   .modal-login:target {
+opacity:1;
+pointer-events: auto;
+}
+
+.modal-login> div {
+width: 17%;
+height: auto;
+position: relative;
+padding: 10px;
+border-radius: 1px;
+background: #ffffff;
+box-shadow: #b2b2b2 0px 1px 1px 1px; 
+margin-top: 90px;
+margin-left: 83%;
+z-index: 2;
+}
+
+@media screen and (max-width: 780px){
+	.modal-login> div{
+		margin-left: 70%;
+
+	}
+}
+#input_modal{
+	width: 180px;
+	padding: 10px;
+	border: 1px solid #b2b2b2;
+	font-family: Basic;
+}
+#submit_input{
+	font-family: Basic;
+	background-color: #9351C2;
+	cursor: pointer;
+	color: white;
+	border-radius: 2px;
+	padding: 5px;
+	padding-right: 40%;
+	padding-left: 40%;
+	font-size: 10pt;
+	border: 1px solid #9351C2;
+}
+#submit_input:hover{
+	background-color: #560292;
+}
+span{
+	font-family: Basic;
+}

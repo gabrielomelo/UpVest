@@ -1,0 +1,71 @@
+/**
+ *
+ * @author Sabrina Ribeiro
+ * Email: ssabrinaribeiro@outlook.com
+ *
+ */
+
+@charset "utf-8";
+
+  .menu-cfg-modal{
+position: relative !important;;
+opacity:0;
+-webkit-transition: opacity 400ms ease-in;
+-moz-transition: opacity 400ms ease-in;
+transition: opacity 400ms ease-in;
+pointer-events: none;
+ }
+  
+   .menu-cfg-modal:target {
+opacity:1;
+pointer-events: auto;
+}
+
+.menu-cfg-modal> div {
+width: 230px !important;
+position: relative !important;
+padding: 5px 20px 13px 20px !important;
+border-radius: 1px !important;
+background: #ffffff !important;
+box-shadow: #b2b2b2 0px 1px 1px 1px !important;
+margin-top: 6px !important;
+margin-left: 85% !important;
+font-family: Basic !important;
+}
+
+@media screen and (max-width: 780px){
+	.menu-cfg-modal> div{
+		margin-left: 70%;
+
+	}
+	
+}
+a.menu-cfg{
+	background-color: transparent !important;
+	color: #000000 !important;
+	border: 2px solid #b2b2b2 !important;
+	padding: 7px !important;
+	text-decoration: none !important;
+	font-size: 10pt !important;
+	-webkit-transition: background-color 300ms ease-in-out, border-color 300ms ease-in-out;
+	transition: background-color 300ms ease-in-out, border-color 300ms ease-in-out;
+}
+a.menu-cfg:hover{
+	background-color: #000000 !important;
+	border: 2px solid #000000 !important;
+	color: #ffffff !important;
+}
+
+button#btn-logout{
+	background:transparent !important;
+	border: none !important;
+	text-decoration: none !important;
+	color: #000000 !important;
+	cursor: pointer !important;
+	font-family: Basic !important;
+	margin-left: -5px !important;
+}
+button#btn-logout:hover{
+	text-decoration: underline !important; 
+	color:#9351C2 !important;
+}

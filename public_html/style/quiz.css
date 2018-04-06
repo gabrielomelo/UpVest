@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/* 
+*
+* @author Sabrina Ribeiro
+* Email: ssabrinaribeiro@outlook.com
+*
+*/
+
+.body-quiz{
+	width: 1000px; 
+	height: auto;
+	background-color: #ffffff;
+	margin: 0 auto 0 auto;
+	box-shadow: #b2b2b2 0px 0px 4px 0px;
+	}
+h1{
+	font-family: Basic;
+}
+span{
+	margin-left: 37%;
+}
+#btn-v{
+	font-family: Basic;
+	background-color: #9351C2;
+	cursor: pointer;
+	color: white;
+	border-radius: 2px;
+	padding: 5px;
+	font-size: 10pt;
+	text-decoration: none;
+	border: none;
+}
+
+#btn-v:hover{
+	background-color: #560292;
+	border: none;
+	color: #ffffff;
+}
+#quiz{
+	margin: 0 auto 0 auto;
+	width: 600px;
+	height: auto;
+	margin-top: 70px;
+	position: relative;
+	padding: 10px;
+}
+table#config td a{
+	color: #000000;
+	font-size: 10pt;
+	text-decoration: none;
+}
+table#config td a:hover{
+	color: #9351C2;
+	text-decoration: underline;
+}
+button#btn-logout{
+	background:transparent;
+	border: none;
+	text-decoration: none;
+	color: #000000;
+	cursor: pointer;
+	font-family: Basic;
+	margin-left: -5px;
+}
+button#btn-logout:hover{
+	text-decoration: underline;
+	color:#9351C2;
+}
+h1{
+	text-align: center;
+	font-family: Basic;
+}

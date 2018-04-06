@@ -1,0 +1,93 @@
+/* 
+*
+* @author Sabrina Ribeiro
+* Email: ssabrinaribeiro@outlook.com
+*
+*/
+@charset "UTF-8";
+
+.body-login{
+	width: 500px; 
+	margin: 0 auto 0 auto;
+	height: 300px;
+	background-color: #ffffff;
+	box-shadow: #b2b2b2 0px 0px 4px 0px; 
+}
+@media screen and (max-width: 1000px){
+	.body-login{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 100%;
+	}
+}
+#log-in{
+	width: 300px;
+	position: relative;
+	margin-top: 60px; 
+}
+li a{
+	font-family: Basic;
+	display: inline;
+	font-size: 15px;
+	color: #000000;
+	text-decoration: none;
+}
+li a:hover{
+	color: purple;
+}
+h2{
+	text-align: center;
+	font-family: Basic;
+}
+span{
+	font-size: 10pt;
+}
+input.user_email{
+	background-image: url('../media/interface.png');
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 20px;
+	border-top:0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 1px solid #b2b2b2;
+
+}
+input.user_email:hover,.user_pass:focus{
+	border-bottom:1px solid purple;
+}
+input.user_pass{
+	border-top:0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 1px solid #b2b2b2;
+	background-image: url('../media/business.png');
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 20px;
+}
+
+
+#login_confirm{
+	font-family: Basic;
+	background-color: #9351C2;
+	cursor: pointer;
+	color: white;
+	border-radius: 2px;
+	padding: 5px;
+	padding-right: 42%;
+	padding-left: 42%;
+	font-size: 10pt;
+	border: 1px solid #9351C2;
+}
+#login_confirm:hover{
+	background-color: #560292;
+}
+ 
+input[type=text], [type=password]{
+	padding: 5%;
+	padding-left: 25px;
+	width: 100%;
+	font-family: Basic;	
+} 
+

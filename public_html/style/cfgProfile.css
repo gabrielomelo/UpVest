@@ -1,0 +1,126 @@
+/* 
+*
+* @author Sabrina Ribeiro
+* Email: ssabrinaribeiro@outlook.com
+*
+*/
+@charset "UTF-8";
+
+.body-cfg{
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%; 
+	height: 570px;
+	float: left; 
+	background-color: #ffffff;
+	box-shadow: #b2b2b2 0px 0px 4px 0px; 
+	
+	}
+
+@media screen and (max-width: 1000px){
+	.body-cfg{
+		width: 1000px;
+
+	}
+	.body-cfg-2{
+		margin-left: 540px;
+		width: 30%;
+			}
+}
+
+button#mEdit{
+	background:transparent;
+	border: none;
+	text-decoration: none;
+	color: #000000;
+	cursor: pointer;
+	font-family: Basic;
+	margin-left: -5px;
+}
+button#mEdit:hover{
+
+	text-decoration: underline;
+	color:#9351C2;
+}
+.body-cfg-1{
+	margin-top: 90px;
+	margin-left: 40px;
+	width: 500px;
+	height: 400px;
+	border-right: 1px #000000 solid;
+}
+.body-cfg-2{
+	margin-top: -400px;
+	margin-left: 600px;
+	width: 40%;	
+}
+
+/* TABLE - CONFIGURAÇOEOS GERAIS DA CONTA */
+
+table#configs{
+	position: relative;
+	border-top: 1px #b2b2b2 solid; 
+	border-bottom: 1px #b2b2b2 solid; 
+}
+table#configs td{
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+table#configs strong{
+	color: #777777;
+}
+a#cfg-link-terms{
+	text-decoration: none;
+	color: #385CD1;
+	cursor: pointer;
+}
+button{
+	font-family: Times;
+	background: none;
+	color:#385CD1;
+	border: none;
+	cursor: pointer;
+}
+button:hover{
+	text-decoration: underline;
+}
+button#cfg-delete-account{
+	font-size: 16px;
+}
+a#cfg-link-terms:hover{
+	text-decoration: underline;
+}
+
+table#configs td#name{
+	padding-right: 60px;
+
+}
+strong#title{
+	font-family: Arial;
+}
+strong{
+	font-family: Arial;
+}
+button#mEdit{
+	background:transparent;
+	border: none;
+	text-decoration: none;
+	color: #000000;
+	cursor: pointer;
+	font-family: Basic;
+	margin-left: -5px;
+}
+button#mEdit:hover{
+	text-decoration: underline;
+	color:#9351C2;
+}
+
+#input_conf{
+	width: 180px;
+	padding: 5px;
+	border: 1px solid #b2b2b2;
+	font-family: Basic;
+}
+footer{
+	margin-left: 70px;	
+} 

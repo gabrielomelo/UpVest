@@ -1,0 +1,90 @@
+﻿/* 
+*
+* @author Sabrina Ribeiro
+* Email: ssabrinaribeiro@outlook.com
+*
+*/
+@charset "UTF-8";
+
+
+.body-profile{
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%; 
+	height: 570px;
+	float: left; 
+	background-color: #ffffff;
+	box-shadow: #b2b2b2 0px 0px 4px 0px; 
+	}
+
+@media screen and (max-width: 1200px){
+
+	.body-profile{
+		width: 1000px;
+	}
+	table img{
+		width: 100px;
+	}
+
+}
+
+#body-user-information{
+	width: 270px;
+	float: left;
+	height: 570px; 
+	background-color: #ffffff;
+	border-right: 1px solid #b2b2b2;
+}
+
+#config_confirm{
+	font-family: Basic;
+	background-color: #355CBA;
+	cursor: pointer;
+	color: white;
+	border-radius: 2px;
+	padding: 2px;
+	font-size: 10pt;
+	border: #355CBA;
+}
+#config_confirm:hover{
+	background-color: #224AA6;
+}
+
+/* informações do usuário */
+table#user-information{
+
+	margin-left: 5%;
+	font-family: Basic;
+	font-size: 10pt;
+	text-align: center;
+
+}
+strong{
+	font-family: Basic;
+	font-size: 25px;
+}
+
+.quiz-subjects{
+	float: left;
+} 
+/* matérias */
+#subjects{
+	margin-top: 17%;
+	margin-left: 120px;
+}
+table#subjects td{
+	text-align: center;
+	padding-left: 10px;
+}
+table#subjects td a{
+	font-family: Basic;
+	text-decoration: none;
+	color: #000000;
+}
+table#subjects td a:hover{
+	text-decoration: underline;
+	color: #9351C2;
+}
+footer{
+	margin-left: 70px;	
+} 

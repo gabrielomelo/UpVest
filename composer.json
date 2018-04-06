@@ -1,0 +1,20 @@
+{
+    "name": "Upvest!",
+    "description": "Sistema de auxilio ao vestibulando",
+    "autoload":{ 
+        "psr-0":
+            { 
+               "Application": "src"
+            }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8"
+    },
+    "authors": [
+        {
+            "name": "Gabriel Melo",
+            "email": "dev.gabrielomelo@gmail.com"
+        }
+    ],
+    "minimum-stability": "alpha"
+}

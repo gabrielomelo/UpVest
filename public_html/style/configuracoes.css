@@ -1,0 +1,146 @@
+/* 
+*
+* @author Sabrina Ribeiro
+* Email: ssabrinaribeiro@outlook.com
+*
+*/
+@charset "UTF-8";
+body{
+	background-color: #EBEBEB !important;
+}
+.body-cfg{
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%; 
+	height: 570px;
+	float: left; 
+	background-color: #ffffff;
+	box-shadow: #b2b2b2 0px 0px 4px 0px; 
+	
+	}
+
+@media screen and (max-width: 1000px){
+	.body-cfg{
+		width: 1000px;
+
+	}
+	.body-cfg-2{
+		margin-left: 540px;
+		width: 30%;
+			}
+}
+
+button#mEdit{
+	background:transparent !important;
+	border: none !important;
+	text-decoration: none !important;
+	color: #000000 !important;
+	cursor: pointer !important;
+	font-family: Basic !important;
+	margin-left: -5px !important;
+}
+button#mEdit:hover{
+	text-decoration: underline !important;
+	color:#9351C2 !important;
+}
+.body-cfg-1{
+	margin-top: 90px !important;
+	margin-left: 40px !important;
+	width: 500px !important;
+	height: 400px !important;
+	border-right: 1px #000000 solid !important;
+}
+.body-cfg-2{
+	margin-top: -400px !important;
+	margin-left: 600px !important;
+	width: 40% !important;
+}
+.menu-cfg{
+	margin-top: 6px !important;
+}
+
+/* TABLE - CONFIGURAÇOEOS GERAIS DA CONTA */
+
+table#configs{
+	position: relative !important;
+	border-top: 1px #b2b2b2 solid !important; 
+	border-bottom: 1px #b2b2b2 solid !important;
+}
+table#configs td{
+	padding-top: 5px !important;
+	padding-bottom: 10px !important;
+}
+table#configs strong{
+	color: #777777 !important;
+}
+a#cfg-link-terms{
+	text-decoration: none !important;
+	color: #385CD1 !important;
+	cursor: pointer !important;
+}
+button{
+	font-family: Times !important;
+	background: none !important; 
+	color:#385CD1 !important;
+	border: none !important;
+	cursor: pointer !important;
+}
+button:hover{
+	text-decoration: underline !important;
+}
+button#cfg-delete-account{
+	font-size: 16px !important; 
+}
+a#cfg-link-terms:hover{
+	text-decoration: underline !important;
+}
+
+table#configs td#name{
+	padding-right: 60px !important;;
+
+}
+strong#title{
+	font-family: Arial !important;
+}
+strong{
+	font-family: Arial !important;
+}
+nav{
+	margin-top: 15px !important;
+}
+button#mEdit{
+	background:transparent !important;
+	border: none !important;
+	text-decoration: none !important;
+	color: #000000 !important;
+	cursor: pointer !important;
+	font-family: Basic !important;
+	margin-left: -5px !important;
+}
+button#mEdit:hover{
+	text-decoration: underline !important;
+	color:#9351C2 !important;
+}
+
+#input_conf{
+	width: 180px !important;
+	padding: 5px !important;
+	border: 1px solid #b2b2b2 !important;
+	font-family: Basic !important;
+}
+.dropdown-menu{
+	box-shadow: none !important;  
+}
+.send{
+	padding-right: 50px !important;
+	padding-left: 50px !important;
+	border: none !important;
+	background-color: #385CD1 !important;
+	color: #ffffff !important;
+	font-family: Basic !important;
+	border-radius: 5px;
+	cursor: pointer;
+}
+footer{
+	margin-left: 70px !important;
+} 

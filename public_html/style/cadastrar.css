@@ -1,0 +1,175 @@
+@charset "UTf-8";
+
+/* 
+*
+* @author Sabrina Ribeiro
+* Email: ssabrinaribeiro@outlook.com
+*
+*/
+
+.body-register{
+	width: 50%; 
+	margin-left: 25%;
+	height: 500px;
+	float: left; 
+	background-color: #ffffff;
+	box-shadow: #b2b2b2 0px 0px 4px 0px; 
+
+}
+@media screen and (max-width: 1000px){
+	.body-register{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 100%;
+	}
+}
+#form{
+	margin-left: 7%;
+	width: 90%;
+	position: relative;
+}
+form.sign_up_form{
+	margin-top: 110px;
+	position: relative;
+	left: -2%;
+	text-align: center;
+} 
+
+form.sign_up_form input{
+	font-family: Basic;
+	border-top:0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 1px solid #b2b2b2;
+}
+form.sign_up_form input:focus{
+	border-bottom: 1px solid purple;
+}
+li a{
+	font-family: Basic;
+	display: inline;
+	font-size: 15px;
+	color: #000000;
+	text-decoration: none;
+}
+select{
+	border-top:0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 1px solid #b2b2b2;
+}
+.submit{
+	cursor: pointer;
+}
+.submit:hover{
+	border-bottom: 1px solid red;
+}
+form.sign_up_form input[type=text]{
+	padding: 5%;
+	width: 100%;
+	padding-left: 25px;
+}
+input[name=user_email]{
+	background-image: url('../media/interface.png');
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 20px;
+}
+input[name=user_name]{
+	background-image: url('../media/black.png');
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 20px;
+}
+input[name=user_phone_ddd]{
+	background-image: url('../media/location.png');
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 20px;	
+	padding-left: 25px;
+}
+input[name=user_phone]{
+	background-image: url('../media/telephone.png');
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 20px;	
+	padding-left: 25px;	
+}
+
+input[name=user_birth_date]{
+	background-image: url('../media/days.png');
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 20px;	
+}
+form.sign_up_form input[type=password]{
+	padding: 5%;
+	width: 100%;
+	position: relative;
+	background-image: url('../media/business.png');
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 20px;
+	padding-left: 30px;
+}
+
+form.sign_up_form input[type=date]{
+	padding: 5%;
+	width: 100%;
+	position: relative;
+		padding-left: 25px;
+}
+
+#user_sex{
+	padding: 5%;
+	padding-right: 50px;
+	width: 100%;
+	font-family: Basic;
+	position: relative;
+}
+.foot{
+	margin-top: 150px;
+}
+#user_state{
+	padding: 5%;
+	padding-right: 50px;
+	width: 100%;
+	font-family: Basic;
+	position: relative;
+}
+
+#user_phone_ddd{
+	width: 80px;
+	position: relative;
+
+}
+#user_phone{
+	width: 170px;
+	position: relative;
+}
+.sign_up_confirm{
+	position: relative;
+} 
+h1{
+	font-family: Basic;
+	position: relative;
+	
+}
+#sign_up_confirm{
+	font-family: Basic;
+	background-color: #9351C2; 
+	cursor: pointer;
+	color: white;
+	border-radius: 2px;
+	padding: 5px;
+	padding-right: 15%;
+	padding-left: 15%;
+	font-size: 10pt;
+	border: 1px solid #7302C4;
+}
+#sign_up_confirm:hover{
+	background-color: #560292;
+}
+#sign_up_confirm:focus{
+	margin-top: 2px;
+}

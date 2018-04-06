@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/* 
+*
+* @author Sabrina Ribeiro
+* Email: ssabrinaribeiro@outlook.com
+*
+*/
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+
+@media screen and (max-width: 780px){
+	.body-ranking{
+	width: 100%; 
+}
+		table#mat{
+			display: none;
+		}
+		table#ranking{
+			float: left;
+			background-color: #ffffff;
+			font-size: 10pt;
+			height: 100%;
+
+		}
+	table#ranking td{
+	text-align: center;
+	border-bottom: 1px solid #b2b2b2;
+	font-family: Basic;
+	padding-right: 0;
+	padding-left: 0;
+	width: 10px;
+	}
+	}
+
+.body-ranking{
+	width: 1000px; 
+	height: 100%;
+	background-color: #ffffff;
+	margin: 0 auto 0 auto;
+	box-shadow: #b2b2b2 0px 0px 4px 0px;
+	}
+div#ranking{
+	margin-top: 60px;
+	height: 100%;
+	width: 100%;
+}
+table#ranking td{
+	width: 120px;
+	padding-left: 10%;
+	padding-right: 10%;
+	text-align: center;
+	border-bottom: 1px solid #b2b2b2;
+	font-family: Basic;
+}
+table#ranking td:hover{
+	background-color: #f2f2f2;
+}
+table#config td a{
+	color: #000000;
+	font-size: 10pt;
+	text-decoration: none;
+}
+table#config td a:hover{
+	color: #9351C2;
+	text-decoration: underline;
+}
+table#mat img{
+	width: 60px;
+}
+
+h1{
+	text-align: center;
+	font-family: Lobster;
+	font-size: 40px;
+}
+strong{
+	font-family: lobster;
+}

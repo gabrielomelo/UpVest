@@ -1,0 +1,75 @@
+/* 
+*
+* @author Sabrina Ribeiro
+* Email: ssabrinaribeiro@outlook.com
+*
+*/
+
+@charset "utf-8";
+@font-face{
+	font-family: Basic; 
+	src: url('../_fonts/TitilliumWeb-ExtraLight.ttf');
+	}
+	
+/* corpo */
+body{ /* #F7F7F7 #EBEBEB */
+	width: 100%; 
+ 	margin-top:0px;
+ 	margin-left:0px; 
+	background-color: #EBEBEB;
+	position: absolute;
+}
+/* topo fixado - menu */
+#topo{
+	background: #ffffff;
+	position: fixed;
+	width: 100%; 
+	height: 60px;
+	top: 0; 
+	left: 0;
+	box-shadow: #b2b2b2 0px 0px 2px 0px; 
+}
+
+.container {
+	width: 85%;
+	margin: auto;
+}
+nav ul li {
+	display: inline; 
+	margin-left: 30px;
+	margin-top: 5px;
+}
+nav {
+	float: right; 
+} 
+
+#logo{
+	width: 90px;
+	margin-top: 5px;
+}
+
+/* Links do menu que estão dentro da tabela */
+
+table#config td a{
+	font-size: 10pt;
+	color: #000000;
+	text-decoration: none;
+}
+table#config td a:hover{
+	color: #9351C2;
+	text-decoration: underline;
+}
+button#logout{
+	background:transparent;
+	border: none;
+	text-decoration: none;
+	color: #000000;
+	cursor: pointer;
+	font-family: Basic;
+	margin-left: -5px;
+}
+button#logout:hover{
+	text-decoration: underline;
+	color:#9351C2;
+}
+
